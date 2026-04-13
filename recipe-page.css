@@ -2,12 +2,17 @@ body{
     background-color:  hsl(30, 54%, 90%);
     display: flex;
     justify-content: center;
+
+
 }
 .card-body{
     background-color: hsl(0, 0%, 100%);
     width: 400px;
     padding: 30px;
     border-radius: 10px;
+    font-family: 'outfit';
+    font-size: 15px;
+    
 
 }
 img{
@@ -16,4 +21,19 @@ img{
 .nutrition{
     display: flex;
     justify-content: space-between;
+}
+h2{
+    font-family: 'young serif';
+    color:  hsl(14, 45%, 36%);
+}
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.title{
+    color: hsl(332, 51%, 32%);
+}
+.numbers{
+    color: hsl(14, 45%, 36%);
 }
