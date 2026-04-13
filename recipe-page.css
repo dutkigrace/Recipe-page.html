@@ -1,0 +1,19 @@
+body{
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    background-color: hsl(0, 0%, 100%);
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+img{
+    border-radius: 10px;
+}
+.nutrition{
+    display: flex;
+    justify-content: space-between;
+}
