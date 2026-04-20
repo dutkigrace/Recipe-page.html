@@ -19,8 +19,9 @@ img{
     border-radius: 10px;
 }
 .nutrition{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: 150px 150px 150px;
 }
 h2{
     font-family: 'young serif';
